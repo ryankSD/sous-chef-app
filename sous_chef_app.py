@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 # --- CONFIGURATION ---
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
-ga_measurement_id = os.getenv("GA_MEASUREMENT_ID") # Get the GA ID
+ga_measurement_id = os.getenv("GA_MEASUREMENT_ID") # This line was missing
 AMAZON_AFFILIATE_TAG = "aisouschef-20"
 
 # --- SAMPLE RESPONSE FOR TEST MODE ---
