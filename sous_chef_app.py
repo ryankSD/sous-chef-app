@@ -152,3 +152,6 @@ if st.session_state.recipe_text:
     
     st.markdown("---")
     st.text_area("Copy recipe text below:", st.session_state.recipe_text, height=150)
+
+    st.markdown("---")
+    st.markdown("Found a bug or have an idea? [**Give us your feedback!**](https://docs.google.com/forms/d/e/1FAIpQLSfLbMN6fzkWvZJCF07WEwxDAFsR5Umv_caU7cfHBbgh0DjN6g/viewform?usp=header)")
